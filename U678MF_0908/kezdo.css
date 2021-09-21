@@ -1,0 +1,53 @@
+body{
+    background-image: url(nebula.jpg);
+    color: white;
+}
+
+#infoep{
+    width: 320px;
+    height: 240px;
+}
+
+th{
+    text-align: center;
+}
+
+table{
+    /* border: 1; */
+    width: 100%;
+}
+
+.headers{
+    font-size: 210%;
+    text-decoration: white underline;
+    padding: 3%;
+}
+
+.headers a:hover{
+    color: #7b2cbf;
+}
+
+a{
+    color: white;
+}
+
+#hello{
+    font-size: 180%;
+    font-weight: bold;
+}
+
+div{
+    font-size: 150%;
+    padding-left: 3%;
+}
+
+.bottom{
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    padding: 80px;
+}
+
+#neptun{
+    color: #0096c7;
+}
