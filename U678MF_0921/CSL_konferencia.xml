@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<konferencia>
+    <cim>Miskolc, Kő u. 1.</cim>
+    <hallgatok>
+        <hallgato>
+            <nev>Kis Pista</nev>
+            <lakcim>Miskolc</lakcim>
+        </hallgato>
+        <hallgato>
+            <nev>Toth Eva</nev>
+            <lakcim>Bp</lakcim>
+        </hallgato>
+    </hallgatok>
+    <helyszin>Szabadter</helyszin>
+    <eloado>
+        <nev>Charlie</nev>
+        <adoszam>15-312-13</adoszam>
+        <lakcim>Bugyi</lakcim>
+    </eloado>
+    <datum>2021.10.10.</datum>
+</konferencia>

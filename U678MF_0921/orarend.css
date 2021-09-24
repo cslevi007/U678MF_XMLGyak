@@ -1,0 +1,44 @@
+body{
+    background-color: #eddcd2;
+}
+
+h3{
+    text-align: center;
+}
+
+table{
+    margin-left: auto;
+    margin-right: auto;
+}
+
+th{
+    padding: 0% 3% 3% 3%;
+    background-color: #F3DFC1;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    letter-spacing: 1.5px;
+    border-width: 3px;
+    border-style: groove;
+    border-color: #457b9d;
+    
+}
+
+th, td{
+    width: 150px;
+}
+
+td{
+    margin: 3px 5px;
+}
+
+.firstrow{
+    text-align: center;
+    background-color: #deab90;
+    font-weight: bold;
+}
+
+.bottom{
+    position: fixed;     
+    text-align: left;    
+    bottom: 0px; 
+    width: 100%;
+}

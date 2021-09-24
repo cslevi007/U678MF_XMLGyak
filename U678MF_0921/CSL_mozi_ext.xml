@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<mozi>
+    <film id="txn_nxm_2jb" mufaj="horro">
+        <rendezo id="nzk_4xm_2jb" nev="alex" />
+        <szinesz id="u5q_4xm_2jb" nev="Madison_Ivy" />
+        <iro id="trv_4xm_2jb" />
+        <producer id="rpd_4xm_2jb" nev="Eva Longoria" />
+        <dramaturg id="wes_4xm_2jb" nev="Hozar Lusen" />
+        <operator id="opr_4xm_2jb" nev="George Apti" />
+    </film>
+</mozi>
