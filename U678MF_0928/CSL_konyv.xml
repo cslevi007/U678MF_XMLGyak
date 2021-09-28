@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<konyvek>
+    <konyv id="101">
+        <cim>Clean Code: A Handbook of Agile Software Craftsmanship</cim>
+        <kiadasiEv>2008</kiadasiEv>
+        <kiado>Prentice Hall</kiado>
+        <szerzo>Robert C. Martin</szerzo>
+    </konyv>
+    <konyv id="102">
+        <cim>Introduction to Algorithms</cim>
+        <kiadasiEv>1989</kiadasiEv>
+        <kiado>The MIT Press</kiado>
+        <szerzo>Thomas H. Cormen</szerzo>
+        <szerzo>Charles E. Leiserson</szerzo>
+        <szerzo>Ronald L. Rivest</szerzo>
+        <szerzo>Clifford Stein</szerzo>
+    </konyv>
+    <konyv id="103">
+        <cim>The Pragmatic Programmer</cim>
+        <kiadasiEv>1999</kiadasiEv>
+        <kiado>Addison-Wesley Professional</kiado>
+        <szerzo>Andrew Hunt</szerzo>
+        <szerzo>David Thomas</szerzo>
+    </konyv>
+</konyvek>
