@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
-
+<!DOCTYPE konyvek SYSTEM "CSL_konyv.dtd">
 <konyvek>
-    <konyv id="101">
+    <konyv id="id_101">
         <cim>Clean Code: A Handbook of Agile Software Craftsmanship</cim>
         <kiadasiEv>2008</kiadasiEv>
         <kiado>Prentice Hall</kiado>
         <szerzo>Robert C. Martin</szerzo>
     </konyv>
-    <konyv id="102">
+    <konyv id="id_102">
         <cim>Introduction to Algorithms</cim>
         <kiadasiEv>1989</kiadasiEv>
         <kiado>The MIT Press</kiado>
@@ -16,7 +16,7 @@
         <szerzo>Ronald L. Rivest</szerzo>
         <szerzo>Clifford Stein</szerzo>
     </konyv>
-    <konyv id="103">
+    <konyv id="id_103">
         <cim>The Pragmatic Programmer</cim>
         <kiadasiEv>1999</kiadasiEv>
         <kiado>Addison-Wesley Professional</kiado>

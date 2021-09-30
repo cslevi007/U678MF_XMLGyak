@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE adatbazis SYSTEM "CSL_adatbazis.dtd">
+<adatbazis>
+    <dolgozo kod="k_01">
+        <nev>Toth Istvan</nev>
+        <fizetes>240000</fizetes>
+    </dolgozo>
+    <dolgozo kod="k_02">
+        <nev>Szabo Jozsef</nev>
+        <fizetes>480000</fizetes>
+    </dolgozo>
+    <dolgozo kod="k_03">
+        <nev>Kis Annamaria</nev>
+        <fizetes>190000</fizetes>
+    </dolgozo>
+    <dolgozo kod="k_04">
+        <nev>Szeles Patricia</nev>
+        <fizetes></fizetes>
+    </dolgozo>
+    <dolgozo kod="k_05">
+        <nev>Fuzeri Hanna</nev>
+        <fizetes>310000</fizetes>
+    </dolgozo>
+</adatbazis>

@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE minta SYSTEM "CSL_ertodtd.dtd">
+
+<minta>
+    <A Aa="a_id_01">
+        <Ab>
+            <Abx>alma</Abx>
+            <Aby>szilva</Aby>
+        </Ab>
+        <Ab>
+            <Abx>hello</Abx>
+            <Aby>world</Aby>
+        </Ab>
+        <Ac>
+            <Acd>dfdf</Acd>
+            <Ace>dasdasdw</Ace>
+        </Ac>
+    </A>
+    <A Aa="a_id_02">
+        <Ab>
+            <Abx>cdc</Abx>
+            <Aby>cyxcs</Aby>
+        </Ab>
+        <Ab>
+            <Abx>dsad</Abx>
+            <Aby>dasdasw</Aby>
+        </Ab>
+        <Ac>
+            <Acd>dasdas</Acd>
+            <Ace>dasdas</Ace>
+        </Ac>
+    </A>
+    <B Ba="b_id_01" Bc="c_id_01">
+        <Bb>
+            <Bbx>dasdasd</Bbx>
+            <Bby>fadsfase</Bby>
+        </Bb>
+    </B>
+    <C Ca="c_id_01">
+        <Cb>fasdfeawd</Cb>
+    </C>
+    <A_B A_B_a="a_id_01" A_B_b="b_id_01">
+        <A_Bc>fdfwdsd</A_Bc>
+    </A_B>
+</minta>
