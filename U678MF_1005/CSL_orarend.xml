@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<orarend xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="CSL_orarend.xsd">
+    <ora id="id_1" tipus="eloadas">
+        <targy>WEB-es alkalmazasok</targy>
+        <idopont>
+            <nap>hetfo</nap>
+            <tol>10</tol>
+            <ig>12</ig>
+        </idopont>
+        <helyszin>In 101</helyszin>
+        <oktato>Dr. Krizsan Zoltan</oktato>
+        <szak>mernokinformatikus</szak>
+    </ora>
+    <ora id="id_2" tipus="eloadas">
+        <targy>Web technologiak</targy>
+        <idopont>
+            <nap>hetfo</nap>
+            <tol>12</tol>
+            <ig>14</ig>
+        </idopont>
+        <helyszin>30-as eloado</helyszin>
+        <oktato>Agardi Anita</oktato>
+        <szak>mernokinformatikus</szak>
+    </ora>
+    <ora id="id_3" tipus="eloadas">
+        <targy>Mesterseges intelligencia</targy>
+        <idopont>
+            <nap>hetfo</nap>
+            <tol>14</tol>
+            <ig>17</ig>
+        </idopont>
+        <helyszin>32-as eloado</helyszin>
+        <oktato>Dr. Dudás Laszlo</oktato>
+        <szak>mernokinformatikus</szak>
+    </ora>
+    <ora id="id_4" tipus="gyakorlat">
+        <targy>Web technologiak</targy>
+        <idopont>
+            <nap>hetfo</nap>
+            <tol>17</tol>
+            <ig>19</ig>
+        </idopont>
+        <helyszin>In 103</helyszin>
+        <oktato>Tamas Judit</oktato>
+        <szak>mernokinformatikus</szak>
+    </ora>
+    <ora id="id_5" tipus="gyakorlat">
+        <targy>WEB-es alkalmazasok</targy>
+        <idopont>
+            <nap>kedd</nap>
+            <tol>10</tol>
+            <ig>12</ig>
+        </idopont>
+        <helyszin>In 103</helyszin>
+        <oktato>Dr. Krizsan Zoltan</oktato>
+        <szak>mernokinformatikus</szak>
+    </ora>
+    <ora id="id_6" tipus="eloadas">
+        <targy>Adatkezeles XML-ben</targy>
+        <idopont>
+            <nap>kedd</nap>
+            <tol>12</tol>
+            <ig>14</ig>
+        </idopont>
+        <helyszin>2-es eloado</helyszin>
+        <oktato>Dr. Bednarik Laszlo</oktato>
+        <szak>mernokinformatikus</szak>
+    </ora>
+    <ora id="id_7" tipus="gyakorlat">
+        <targy>Adatkezeles XML-ben</targy>
+        <idopont>
+            <nap>kedd</nap>
+            <tol>14</tol>
+            <ig>16</ig>
+        </idopont>
+        <helyszin>In 103</helyszin>
+        <oktato>Dr. Bednarik Laszlo</oktato>
+        <szak>mernokinformatikus</szak>
+    </ora>
+    <ora id="id_8" tipus="gyakorlat">
+        <targy>Szoftverteszteles</targy>
+        <idopont>
+            <nap>szerda</nap>
+            <tol>8</tol>
+            <ig>10</ig>
+        </idopont>
+        <helyszin>In 103</helyszin>
+        <oktato>Tamas Judit</oktato>
+        <szak>mernokinformatikus</szak>
+    </ora>
+    <ora id="id_9" tipus="eloadas">
+        <targy>Szoftverteszteles</targy>
+        <idopont>
+            <nap>szerda</nap>
+            <tol>10</tol>
+            <ig>12</ig>
+        </idopont>
+        <helyszin>In 103</helyszin>
+        <oktato>Tompa Tamas</oktato>
+        <szak>mernokinformatikus</szak>
+    </ora>
+    <ora id="id_10" tipus="gyakorlat">
+        <targy>Mesterseges intelligencia</targy>
+        <idopont>
+            <nap>szerda</nap>
+            <tol>13</tol>
+            <ig>14</ig>
+        </idopont>
+        <helyszin>In 103</helyszin>
+        <oktato>Dr. Dudas Laszlo</oktato>
+        <szak>mernokinformatikus</szak>
+    </ora>
+</orarend>

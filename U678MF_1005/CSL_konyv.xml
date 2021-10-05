@@ -1,9 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<konyvek xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="CSL_konyv.xsd"/>
-
-<!-- <!DOCTYPE konyvek SYSTEM "CSL_konyv.dtd"> -->
-<konyvek>
+<konyvek xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="CSL_konyv.xsd">
     <konyv id="id_101">
         <cim>Clean Code: A Handbook of Agile Software Craftsmanship</cim>
         <kiadasiEv>2008</kiadasiEv>
