@@ -6,7 +6,7 @@
     <xs:complexType>
         <xs:sequence>
             <xs:element name="konyv" maxOccurs="unbounded">
-                <xs:complexType>
+                <xs:complexType mixed="true">
                     <xs:sequence>
                         <xs:element name="cim" type="xs:string"/>
                         <xs:element name="kiadasiEv" type="xs:unsignedShort"/>
