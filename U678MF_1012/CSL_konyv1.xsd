@@ -1,0 +1,36 @@
+<xs:schema attributeFormDefault="unqualified" elementFormDefault="qualified" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:element name="konyvek">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element name="konyv">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element type="xs:string" name="cim"/>
+              <xs:element type="xs:string" name="szerzo"/>
+              <xs:element name="szereplo">
+                <xs:complexType>
+                  <xs:sequence>
+                    <xs:element type="xs:string" name="nev"/>
+                    <xs:element type="xs:string" name="baratja"/>
+                    <xs:element type="xs:short" name="szuletett"/>
+                    <xs:element type="xs:string" name="jellemzes"/>
+                  </xs:sequence>
+                </xs:complexType>
+              </xs:element>
+              <xs:element name="masikSzereplo">
+                <xs:complexType>
+                  <xs:sequence>
+                    <xs:element type="xs:string" name="nev"/>
+                    <xs:element type="xs:short" name="szuletett"/>
+                    <xs:element type="xs:string" name="jellemzes"/>
+                  </xs:sequence>
+                </xs:complexType>
+              </xs:element>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element type="xs:string" name="isbn"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

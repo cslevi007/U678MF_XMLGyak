@@ -1,0 +1,47 @@
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+    <xs:element name="orarend">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element name="ora" type="oraTipus" maxOccurs="unbounded" minOccurs="0" />
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+
+    <xs:simpleType name="napTipus">
+        <xs:restriction base="xs:string">
+            <xs:enumeration value="hetfo" />
+            <xs:enumeration value="kedd" />
+            <xs:enumeration value="szerda" />
+            <xs:enumeration value="csutortok" />
+            <xs:enumeration value="péntek" />
+        </xs:restriction>
+    </xs:simpleType>
+
+    <xs:complexType name="idopontTipus">
+        <xs:sequence>
+            <xs:element type="napTipus" name="nap" />
+            <xs:element type="xs:byte" name="tol" />
+            <xs:element type="xs:byte" name="ig" />
+        </xs:sequence>
+    </xs:complexType>
+
+    <xs:simpleType name="tipusTipus">
+        <xs:restriction base="xs:string">
+            <xs:enumeration value="eloadas" />
+            <xs:enumeration value="gyakorlat" />
+        </xs:restriction>
+    </xs:simpleType>
+
+    <xs:complexType name="oraTipus">
+        <xs:sequence>
+            <xs:element type="xs:string" name="targy" />
+            <xs:element type="idopontTipus" name="idopont" />
+            <xs:element type="xs:string" name="helyszin" />
+            <xs:element type="xs:string" name="oktato" />
+            <xs:element type="xs:string" name="szak" />
+        </xs:sequence>
+        <xs:attribute type="xs:string" name="id" use="optional" />
+        <xs:attribute type="tipusTipus" name="tipus" use="optional" />
+    </xs:complexType>
+
+</xs:schema>

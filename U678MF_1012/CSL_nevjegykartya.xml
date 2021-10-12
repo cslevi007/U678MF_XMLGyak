@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<nevjegykartyak xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="CSL_nevjegykartya.xsd">
+    <nevjegykartya>
+        <nev>Csiszár Levente</nev>
+        <ceg>
+            <nev>Bojler laptopkereskedes</nev>
+            <cim>
+                <iranyitoszam>3525</iranyitoszam>
+                <varos>Miskolc</varos>
+                <utca>Kő</utca>
+                <hazszam>56</hazszam>
+            </cim>
+            <telefonszam>0646456287</telefonszam>
+            <weblap>www.bojleeer.hu</weblap>
+        </ceg>
+        <beosztas>Üzletvezető</beosztas>
+        <telefonszam>06301234567</telefonszam>
+        <email>example@gmail.com</email>
+    </nevjegykartya>
+
+    <nevjegykartya>
+        <nev>Nagy Ferenc</nev>
+        <ceg>
+            <nev>Nestlé</nev>
+            <cim>
+                <iranyitoszam>4029</iranyitoszam>
+                <varos>Debrecen</varos>
+                <utca>Toboz</utca>
+                <hazszam>49</hazszam>
+            </cim>
+            <telefonszam>0646897453</telefonszam>
+            <weblap>www.nestle.conm</weblap>
+        </ceg>
+        <beosztas>Minőségellenőr</beosztas>
+        <telefonszam>06206752981</telefonszam>
+        <email>nagyferenc@gmail.com</email>
+    </nevjegykartya>
+</nevjegykartyak>

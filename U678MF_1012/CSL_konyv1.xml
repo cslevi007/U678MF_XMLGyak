@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<konyvek xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="CSL_konyv1.xsd">
+    <konyv>
+        <cim>Vuk</cim>
+        <szerzo>Fekete István</szerzo>
+
+        <szereplo>
+            <nev>Vuk</nev>
+            <baratja>Karak</baratja>
+            <szuletett>2005</szuletett>
+            <jellemzes>kedves aranyos kis róka</jellemzes>
+        </szereplo>
+
+        <masikSzereplo>
+            <nev>Karak</nev>
+            <szuletett>1994</szuletett>
+            <jellemzes>bölcs megfontolt tapasztalt róka</jellemzes>
+        </masikSzereplo>
+    </konyv>
+    <isbn>978-3-16-148410-0</isbn>
+</konyvek>
