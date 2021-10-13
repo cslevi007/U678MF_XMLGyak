@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<konyvek xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="CSL_konyv1.xsd">
-    <konyv>
+<konyvek xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="CSL_konyv1_mod.xsd">
+    <konyv isbn="978-3-16-148410-0">
         <cim>Vuk</cim>
         <szerzo>Fekete István</szerzo>
 
@@ -18,5 +18,4 @@
             <jellemzes>bölcs megfontolt tapasztalt róka</jellemzes>
         </masikSzereplo>
     </konyv>
-    <isbn>978-3-16-148410-0</isbn>
 </konyvek>

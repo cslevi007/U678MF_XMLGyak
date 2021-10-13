@@ -5,31 +5,31 @@
         <xs:element name="konyv">
           <xs:complexType>
             <xs:sequence>
-              <xs:element type="xs:string" name="cim"/>
-              <xs:element type="xs:string" name="szerzo"/>
+              <xs:element type="xs:string" name="cim" />
+              <xs:element type="xs:string" name="szerzo" />
               <xs:element name="szereplo">
                 <xs:complexType>
                   <xs:sequence>
-                    <xs:element type="xs:string" name="nev"/>
-                    <xs:element type="xs:string" name="baratja"/>
-                    <xs:element type="xs:short" name="szuletett"/>
-                    <xs:element type="xs:string" name="jellemzes"/>
+                    <xs:element type="xs:string" name="nev" />
+                    <xs:element type="xs:string" name="baratja" />
+                    <xs:element type="xs:short" name="szuletett" />
+                    <xs:element type="xs:string" name="jellemzes" />
                   </xs:sequence>
                 </xs:complexType>
               </xs:element>
               <xs:element name="masikSzereplo">
                 <xs:complexType>
                   <xs:sequence>
-                    <xs:element type="xs:string" name="nev"/>
-                    <xs:element type="xs:short" name="szuletett"/>
-                    <xs:element type="xs:string" name="jellemzes"/>
+                    <xs:element type="xs:string" name="nev" />
+                    <xs:element type="xs:short" name="szuletett" />
+                    <xs:element type="xs:string" name="jellemzes" />
                   </xs:sequence>
                 </xs:complexType>
               </xs:element>
             </xs:sequence>
+            <xs:attribute type="xs:string" name="isbn" />
           </xs:complexType>
         </xs:element>
-        <xs:element type="xs:string" name="isbn"/>
       </xs:sequence>
     </xs:complexType>
   </xs:element>

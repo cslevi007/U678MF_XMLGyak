@@ -1,0 +1,46 @@
+<xs:schema attributeFormDefault="unqualified" elementFormDefault="qualified" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+    <xs:element type="xs:string" name="cim" />
+    <xs:element type="xs:string" name="szerzo" />
+    <xs:element type="xs:string" name="nev" />
+    <xs:element type="xs:string" name="baratja" />
+    <xs:element type="xs:short" name="szuletett" />
+    <xs:element type="xs:string" name="jellemzes" />
+
+    <xs:attribute type="xs:string" name="isbn" />
+
+    <!-- Root element -->
+    <xs:element name="konyvek">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element type="konyvTipus" name="konyv" />
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+
+    <xs:complexType name="szereploTipus">
+        <xs:sequence>
+            <xs:element ref="nev" />
+            <xs:element ref="baratja" />
+            <xs:element ref="szuletett" />
+            <xs:element ref="jellemzes" />
+        </xs:sequence>
+    </xs:complexType>
+
+    <xs:complexType name="masikSzereploTipus">
+        <xs:sequence>
+            <xs:element ref="nev" />
+            <xs:element ref="szuletett" />
+            <xs:element ref="jellemzes" />
+        </xs:sequence>
+    </xs:complexType>
+
+    <xs:complexType name="konyvTipus">
+        <xs:sequence>
+            <xs:element ref="cim" />
+            <xs:element ref="szerzo" />
+            <xs:element type="szereploTipus" name="szereplo" />
+            <xs:element type="masikSzereploTipus" name="masikSzereplo" />
+        </xs:sequence>
+        <xs:attribute ref="isbn" />
+    </xs:complexType>
+</xs:schema>
