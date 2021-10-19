@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<szemelyek>
+    <szemely id="id_1">
+        <nev>Csiszár Levente</nev>
+        <kor>21</kor>
+        <varos>Miskolc</varos>
+    </szemely>
+    <szemely id="id_2">
+        <nev>Tóth Alexandra</nev>
+        <kor>23</kor>
+        <varos>Eger</varos>
+    </szemely>
+    <szemely id="id_3">
+        <nev>Foltos Benedek</nev>
+        <kor>12</kor>
+        <varos>Berettyóújfalu</varos>
+    </szemely>
+</szemelyek>
