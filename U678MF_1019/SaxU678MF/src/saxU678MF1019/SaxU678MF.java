@@ -9,7 +9,6 @@ import javax.xml.parsers.ParserConfigurationException;
 import javax.xml.parsers.SAXParser;
 import javax.xml.parsers.SAXParserFactory;
 
-import org.omg.CORBA.PUBLIC_MEMBER;
 import org.xml.sax.Attributes;
 import org.xml.sax.SAXException;
 import org.xml.sax.helpers.DefaultHandler;
@@ -26,8 +25,9 @@ public class SaxU678MF {
 			SAXParser saxParser = saxParserFactory.newSAXParser();
 			
 			//saját eseménykezelõ objektum létrehozása
-			SaxHandler hander = new SaxHandler();
-		} catch(ParserConfigurationException | SAXException e){
+			SaxHandler handler = new SaxHandler();
+			saxParser.parse(new File("src/saxU678MF1019/szemelyekU678MF.xml"), handler);
+		} catch(ParserConfigurationException | SAXException | IOException e){
 			e.printStackTrace();
 		}
 	}
