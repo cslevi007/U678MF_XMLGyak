@@ -1,0 +1,35 @@
+<!DOCTYPE HTML><html>
+   <body>
+      <h2>Students</h2>
+      <table border="1">
+         <tr bgcolor="#9acd32">
+            <th>Id</th>
+            <th>First Name</th>
+            <th>Last Name</th>
+            <th>Nick Name</th>
+            <th>Age</th>
+         </tr>
+         <tr>
+            <td>01</td>
+            <td>Levente</td>
+            <td>Csiszár</td>
+            <td>Levi</td>
+            <td>21</td>
+         </tr>
+         <tr>
+            <td>02</td>
+            <td>Vanessza</td>
+            <td>Kulcsár</td>
+            <td>Vani</td>
+            <td>25</td>
+         </tr>
+         <tr>
+            <td>03</td>
+            <td>Rebeka</td>
+            <td>Ocskó</td>
+            <td>Rebi</td>
+            <td>18</td>
+         </tr>
+      </table>
+   </body>
+</html>

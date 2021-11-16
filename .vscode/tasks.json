@@ -1,0 +1,33 @@
+{
+	"version": "2.0.0",
+	"tasks": [
+		{
+			"type": "xslt",
+			"label": "xslt: student transform",
+			"saxonJar": "${config:XSLT.tasks.saxonJar}",
+			"xsltFile": "${workspaceFolder}/U678MF_1116/studentU678MF.xsl",
+			"xmlSource": "${workspaceFolder}/U678MF_1116/studentU678MF.xml",
+			"resultPath": "${workspaceFolder}/U678MF_1116/studentU678MF.out.xml",
+			"group": {
+				"kind": "build"
+			},
+			"problemMatcher": [
+				"$saxon-xslt"
+			]
+		},
+		{
+			"type": "xslt",
+			"label": "xslt: orarend transform",
+			"saxonJar": "${config:XSLT.tasks.saxonJar}",
+			"xsltFile": "${workspaceFolder}/U678MF_1116/orarendU678MF.xsl",
+			"xmlSource": "${workspaceFolder}/U678MF_1116/orarendU678MF.xml",
+			"resultPath": "${workspaceFolder}/U678MF_1116/orarendU678MF.out.xml",
+			"group": {
+				"kind": "build"
+			},
+			"problemMatcher": [
+				"$saxon-xslt"
+			]
+		}
+	]
+}
