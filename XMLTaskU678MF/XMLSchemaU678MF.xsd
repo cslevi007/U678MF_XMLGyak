@@ -1,0 +1,115 @@
+<xs:schema attributeFormDefault="unqualified" elementFormDefault="qualified" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+    <xs:element name="nba">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element name="stadionok">
+                    <xs:complexType>
+                        <xs:sequence>
+                            <xs:element name="stadion" type="stadionTipus" maxOccurs="unbounded" minOccurs="0" />
+                        </xs:sequence>
+                    </xs:complexType>
+                </xs:element>
+
+                <xs:element name="csapatok">
+                    <xs:complexType>
+                        <xs:sequence>
+                            <xs:element name="csapat" type="csapatTipus" maxOccurs="unbounded" minOccurs="0" />
+                        </xs:sequence>
+                    </xs:complexType>
+                </xs:element>
+
+                <xs:element name="meccsek">
+                    <xs:complexType>
+                        <xs:sequence>
+                            <xs:element name="meccs" type="meccsTipus" maxOccurs="unbounded" minOccurs="0" />
+                        </xs:sequence>
+                    </xs:complexType>
+                </xs:element>
+
+                <xs:element name="tobbJatszik">
+                    <xs:complexType>
+                        <xs:sequence>
+                            <xs:element name="jatszik" type="tobbJatszikTipus" maxOccurs="unbounded" minOccurs="0" />
+                        </xs:sequence>
+                    </xs:complexType>
+                </xs:element>
+
+                <xs:element name="jatekosok">
+                    <xs:complexType>
+                        <xs:sequence>
+                            <xs:element name="jatekos" type="jatekosTipus" maxOccurs="unbounded" minOccurs="0" />
+                        </xs:sequence>
+                    </xs:complexType>
+                </xs:element>
+
+                <xs:element name="statisztikak">
+                    <xs:complexType>
+                        <xs:sequence>
+                            <xs:element name="statisztika" type="statisztikaTipus" maxOccurs="unbounded" minOccurs="0" />
+                        </xs:sequence>
+                    </xs:complexType>
+                </xs:element>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+
+    <xs:complexType name="stadionTipus">
+        <xs:sequence>
+            <xs:element type="xs:string" name="nev" />
+            <xs:element type="xs:string" name="varos" />
+            <xs:element type="xs:string" name="cim" />
+            <xs:element type="xs:short" name="befogadokepesseg" />
+            <xs:element type="xs:short" name="csapatID" />
+        </xs:sequence>
+        <xs:attribute type="xs:short" name="stadionID" use="required" />
+    </xs:complexType>
+
+    <xs:complexType name="csapatTipus">
+        <xs:sequence>
+            <xs:element type="xs:string" name="nev" />
+            <xs:element type="xs:string" name="varos" />
+        </xs:sequence>
+        <xs:attribute type="xs:short" name="csapatID" use="required" />
+    </xs:complexType>
+
+    <xs:complexType name="meccsTipus">
+        <xs:sequence>
+            <xs:element type="xs:string" name="datum" />
+            <xs:element type="xs:short" name="stadionID" />
+        </xs:sequence>
+        <xs:attribute type="xs:short" name="meccsID" use="required" />
+    </xs:complexType>
+
+    <xs:complexType name="tobbJatszikTipus">
+        <xs:sequence>
+            <xs:element type="xs:byte" name="hazaiCsapatPontszam" />
+            <xs:element type="xs:byte" name="vendegCsapatPontszam" />
+            <xs:element type="xs:short" name="csapatID" />
+            <xs:element type="xs:short" name="meccsID" />
+        </xs:sequence>
+    </xs:complexType>
+
+    <xs:complexType name="jatekosTipus">
+        <xs:sequence>
+            <xs:element type="xs:string" name="nev" />
+            <xs:element type="xs:byte" name="kor" />
+            <xs:element type="xs:byte" name="mezszam" />
+            <xs:element type="xs:string" name="poszt" />
+            <xs:element type="xs:short" name="csapatID" />
+        </xs:sequence>
+        <xs:attribute type="xs:short" name="jatekosID" use="required" />
+    </xs:complexType>
+
+    <xs:complexType name="statisztikaTipus">
+        <xs:sequence>
+            <xs:element type="xs:int" name="jatszottPerc" />
+            <xs:element type="xs:short" name="mezonykosar" />
+            <xs:element type="xs:short" name="harompontos" />
+            <xs:element type="xs:short" name="bunteto" />
+            <xs:element type="xs:short" name="golpassz" />
+            <xs:element type="xs:short" name="lepattano" />
+            <xs:element type="xs:short" name="jatekosID" />
+        </xs:sequence>
+        <xs:attribute type="xs:short" name="statisztikaID" use="required" />
+    </xs:complexType>
+</xs:schema>

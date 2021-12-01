@@ -1,0 +1,323 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<nba>
+    <stadionok>
+        <stadion stadionID="1000">
+            <nev>Staples Center</nev>
+            <varos>Los Angeles</varos>
+            <cim>1111 S Figueroa St</cim>
+            <befogadokepesseg>20000</befogadokepesseg>
+            <csapatID>2000</csapatID>
+        </stadion>
+        <stadion stadionID="1001">
+            <nev>Fiserv Forum</nev>
+            <varos>Milwaukee</varos>
+            <cim>1111 Vel R. Phillips Ave</cim>
+            <befogadokepesseg>17341</befogadokepesseg>
+            <csapatID>2001</csapatID>
+        </stadion>
+        <stadion stadionID="1002">
+            <nev>AmericanAirlines Arena</nev>
+            <varos>Miami</varos>
+            <cim>601 Biscayne Blvd</cim>
+            <befogadokepesseg>21000</befogadokepesseg>
+            <csapatID>2002</csapatID>
+        </stadion>
+        <stadion stadionID="1003">
+            <nev>TD Garden</nev>
+            <varos>Boston</varos>
+            <cim>100 Legends Way</cim>
+            <befogadokepesseg>19580</befogadokepesseg>
+            <csapatID>2003</csapatID>
+        </stadion>
+        <stadion stadionID="1004">
+            <nev>United Center</nev>
+            <varos>Chicago</varos>
+            <cim>1901 W Madison St</cim>
+            <befogadokepesseg>23500</befogadokepesseg>
+            <csapatID>2004</csapatID>
+        </stadion>
+        <stadion stadionID="1005">
+            <nev>Scotiabank Arena</nev>
+            <varos>Toronto</varos>
+            <cim>40 Bay St</cim>
+            <befogadokepesseg>19800</befogadokepesseg>
+            <csapatID>2005</csapatID>
+        </stadion>
+        <stadion stadionID="1006">
+            <nev>AT_T Center</nev>
+            <varos>San Antonio</varos>
+            <cim>1 AT_T Center Parkway</cim>
+            <befogadokepesseg>18581</befogadokepesseg>
+            <csapatID>2006</csapatID>
+        </stadion>
+        <stadion stadionID="1007">
+            <nev>Chase Center</nev>
+            <varos>San Francisco</varos>
+            <cim>1 Warriors Way</cim>
+            <befogadokepesseg>18064</befogadokepesseg>
+            <csapatID>2007</csapatID>
+        </stadion>
+    </stadionok>
+    <csapatok>
+        <csapat csapatID="2000">
+            <nev>Lakers</nev>
+            <varos>Los Angeles</varos>
+        </csapat>
+        <csapat csapatID="2001">
+            <nev>Bucks</nev>
+            <varos>Milwaukee</varos>
+        </csapat>
+        <csapat csapatID="2002">
+            <nev>Heat</nev>
+            <varos>Miami</varos>
+        </csapat>
+        <csapat csapatID="2003">
+            <nev>Celtics</nev>
+            <varos>Boston</varos>
+        </csapat>
+        <csapat csapatID="2004">
+            <nev>Bulls</nev>
+            <varos>Chicago</varos>
+        </csapat>
+        <csapat csapatID="2005">
+            <nev>Raptors</nev>
+            <varos>Toronto</varos>
+        </csapat>
+        <csapat csapatID="2006">
+            <nev>Spurs</nev>
+            <varos>San Antonio</varos>
+        </csapat>
+        <csapat csapatID="2007">
+            <nev>Golden State Warriors</nev>
+            <varos>San Francisco</varos>
+        </csapat>
+    </csapatok>
+    <meccsek>
+        <meccs meccsID="3000">
+            <datum>5/10/2021</datum>
+            <stadionID>1000</stadionID>
+        </meccs>
+        <meccs meccsID="3001">
+            <datum>5/18/2021</datum>
+            <stadionID>1002</stadionID>
+        </meccs>
+        <meccs meccsID="3002">
+            <datum>6/22/2021</datum>
+            <stadionID>1003</stadionID>
+        </meccs>
+        <meccs meccsID="3003">
+            <datum>4/12/2021</datum>
+            <stadionID>1005</stadionID>
+        </meccs>
+        <meccs meccsID="3004">
+            <datum>4/9/2021</datum>
+            <stadionID>1004</stadionID>
+        </meccs>
+        <meccs meccsID="3005">
+            <datum>5/3/2021</datum>
+            <stadionID>1001</stadionID>
+        </meccs>
+        <meccs meccsID="3006">
+            <datum>6/5/2021</datum>
+            <stadionID>1005</stadionID>
+        </meccs>
+        <meccs meccsID="3007">
+            <datum>6/2/2021</datum>
+            <stadionID>1006</stadionID>
+        </meccs>
+    </meccsek>
+    <tobbJatszik>
+        <jatszik>
+            <hazaiCsapatPontszam>113</hazaiCsapatPontszam>
+            <vendegCsapatPontszam>96</vendegCsapatPontszam>
+            <csapatID>2000</csapatID>
+            <meccsID>3000</meccsID>
+        </jatszik>
+        <jatszik>
+            <hazaiCsapatPontszam>113</hazaiCsapatPontszam>
+            <vendegCsapatPontszam>96</vendegCsapatPontszam>
+            <csapatID>2001</csapatID>
+            <meccsID>3000</meccsID>
+        </jatszik>
+        <jatszik>
+            <hazaiCsapatPontszam>108</hazaiCsapatPontszam>
+            <vendegCsapatPontszam>106</vendegCsapatPontszam>
+            <csapatID>2002</csapatID>
+            <meccsID>3001</meccsID>
+        </jatszik>
+        <jatszik>
+            <hazaiCsapatPontszam>108</hazaiCsapatPontszam>
+            <vendegCsapatPontszam>106</vendegCsapatPontszam>
+            <csapatID>2006</csapatID>
+            <meccsID>3001</meccsID>
+        </jatszik>
+        <jatszik>
+            <hazaiCsapatPontszam>101</hazaiCsapatPontszam>
+            <vendegCsapatPontszam>101</vendegCsapatPontszam>
+            <csapatID>2003</csapatID>
+            <meccsID>3002</meccsID>
+        </jatszik>
+        <jatszik>
+            <hazaiCsapatPontszam>101</hazaiCsapatPontszam>
+            <vendegCsapatPontszam>101</vendegCsapatPontszam>
+            <csapatID>2004</csapatID>
+            <meccsID>3002</meccsID>
+        </jatszik>
+        <jatszik>
+            <hazaiCsapatPontszam>87</hazaiCsapatPontszam>
+            <vendegCsapatPontszam>110</vendegCsapatPontszam>
+            <csapatID>2005</csapatID>
+            <meccsID>3003</meccsID>
+        </jatszik>
+        <jatszik>
+            <hazaiCsapatPontszam>87</hazaiCsapatPontszam>
+            <vendegCsapatPontszam>110</vendegCsapatPontszam>
+            <csapatID>2007</csapatID>
+            <meccsID>3003</meccsID>
+        </jatszik>
+        <jatszik>
+            <hazaiCsapatPontszam>103</hazaiCsapatPontszam>
+            <vendegCsapatPontszam>105</vendegCsapatPontszam>
+            <csapatID>2004</csapatID>
+            <meccsID>3004</meccsID>
+        </jatszik>
+        <jatszik>
+            <hazaiCsapatPontszam>103</hazaiCsapatPontszam>
+            <vendegCsapatPontszam>105</vendegCsapatPontszam>
+            <csapatID>2002</csapatID>
+            <meccsID>3004</meccsID>
+        </jatszik>
+    </tobbJatszik>
+    <jatekosok>
+        <jatekos jatekosID="4000">
+            <nev>LeBron James</nev>
+            <kor>36</kor>
+            <mezszam>23</mezszam>
+            <poszt>SF</poszt>
+            <csapatID>2000</csapatID>
+        </jatekos>
+        <jatekos jatekosID="4001">
+            <nev>Giannis Antetokounmpo</nev>
+            <kor>26</kor>
+            <mezszam>34</mezszam>
+            <poszt>PF</poszt>
+            <csapatID>2001</csapatID>
+        </jatekos>
+        <jatekos jatekosID="4002">
+            <nev>Jimmy Butler</nev>
+            <kor>32</kor>
+            <mezszam>22</mezszam>
+            <poszt>SG/SF</poszt>
+            <csapatID>2002</csapatID>
+        </jatekos>
+        <jatekos jatekosID="4003">
+            <nev>Jaylen Brown</nev>
+            <kor>25</kor>
+            <mezszam>7</mezszam>
+            <poszt>SG/SF</poszt>
+            <csapatID>2003</csapatID>
+        </jatekos>
+        <jatekos jatekosID="4004">
+            <nev>Zach LaVine</nev>
+            <kor>26</kor>
+            <mezszam>24</mezszam>
+            <poszt>SG/SF</poszt>
+            <csapatID>2004</csapatID>
+        </jatekos>
+        <jatekos jatekosID="4005">
+            <nev>Kyle Lowry</nev>
+            <kor>35</kor>
+            <mezszam>7</mezszam>
+            <poszt>PG</poszt>
+            <csapatID>2005</csapatID>
+        </jatekos>
+        <jatekos jatekosID="4006">
+            <nev>DeMar DeRozan</nev>
+            <kor>32</kor>
+            <mezszam>10</mezszam>
+            <poszt>SF/SG</poszt>
+            <csapatID>2006</csapatID>
+        </jatekos>
+        <jatekos jatekosID="4007">
+            <nev>DAngelo Russel</nev>
+            <kor>25</kor>
+            <mezszam>0</mezszam>
+            <poszt>PG</poszt>
+            <csapatID>2007</csapatID>
+        </jatekos>
+    </jatekosok>
+    <statisztikak>
+        <statisztika statisztikaID="5000">
+            <jatszottPerc>20102</jatszottPerc>
+            <mezonykosar>3841</mezonykosar>
+            <harompontos>2103</harompontos>
+            <bunteto>3421</bunteto>
+            <golpassz>1643</golpassz>
+            <lepattano>1675</lepattano>
+            <jatekosID>4000</jatekosID>
+        </statisztika>
+        <statisztika statisztikaID="5001">
+            <jatszottPerc>62231</jatszottPerc>
+            <mezonykosar>4232</mezonykosar>
+            <harompontos>4622</harompontos>
+            <bunteto>5456</bunteto>
+            <golpassz>2447</golpassz>
+            <lepattano>3452</lepattano>
+            <jatekosID>4001</jatekosID>
+        </statisztika>
+        <statisztika statisztikaID="5002">
+            <jatszottPerc>32131</jatszottPerc>
+            <mezonykosar>1265</mezonykosar>
+            <harompontos>4732</harompontos>
+            <bunteto>5321</bunteto>
+            <golpassz>5644</golpassz>
+            <lepattano>3534</lepattano>
+            <jatekosID>4002</jatekosID>
+        </statisztika>
+        <statisztika statisztikaID="5003">
+            <jatszottPerc>21333</jatszottPerc>
+            <mezonykosar>4624</mezonykosar>
+            <harompontos>2458</harompontos>
+            <bunteto>3215</bunteto>
+            <golpassz>5464</golpassz>
+            <lepattano>3511</lepattano>
+            <jatekosID>4003</jatekosID>
+        </statisztika>
+        <statisztika statisztikaID="5004">
+            <jatszottPerc>13865</jatszottPerc>
+            <mezonykosar>9754</mezonykosar>
+            <harompontos>5564</harompontos>
+            <bunteto>6845</bunteto>
+            <golpassz>6454</golpassz>
+            <lepattano>2135</lepattano>
+            <jatekosID>4004</jatekosID>
+        </statisztika>
+        <statisztika statisztikaID="5005">
+            <jatszottPerc>78695</jatszottPerc>
+            <mezonykosar>1321</mezonykosar>
+            <harompontos>5468</harompontos>
+            <bunteto>5448</bunteto>
+            <golpassz>5464</golpassz>
+            <lepattano>3543</lepattano>
+            <jatekosID>4005</jatekosID>
+        </statisztika>
+        <statisztika statisztikaID="5006">
+            <jatszottPerc>21515</jatszottPerc>
+            <mezonykosar>4648</mezonykosar>
+            <harompontos>3213</harompontos>
+            <bunteto>2135</bunteto>
+            <golpassz>4421</golpassz>
+            <lepattano>5443</lepattano>
+            <jatekosID>4006</jatekosID>
+        </statisztika>
+        <statisztika statisztikaID="5007">
+            <jatszottPerc>94656</jatszottPerc>
+            <mezonykosar>6521</mezonykosar>
+            <harompontos>5462</harompontos>
+            <bunteto>5468</bunteto>
+            <golpassz>1353</golpassz>
+            <lepattano>1235</lepattano>
+            <jatekosID>4007</jatekosID>
+        </statisztika>
+    </statisztikak>
+</nba>
