@@ -51,6 +51,57 @@
                 </xs:element>
             </xs:sequence>
         </xs:complexType>
+
+        <xs:key name="stadionKulcs">
+            <xs:selector xpath="stadionok/stadion"/>
+			<xs:field xpath="@stadionID"/>
+        </xs:key>
+
+        <xs:key name="csapatKulcs">
+            <xs:selector xpath="csapatok/csapat"/>
+			<xs:field xpath="@csapatID"/>
+        </xs:key>
+
+        <xs:key name="jatekosKulcs">
+            <xs:selector xpath="jatekosok/jatekos"/>
+			<xs:field xpath="@jatekosID"/>
+        </xs:key>
+
+        <xs:key name="meccsKulcs">
+            <xs:selector xpath="meccsek/meccs"/>
+			<xs:field xpath="@meccsID"/>
+        </xs:key>
+
+        <xs:keyref name="csapat-stadion" refer="csapatKulcs">
+            <xs:selector xpath="stadionok/stadion/csapatID"/>
+            <xs:field xpath="."/>
+        </xs:keyref>
+
+        <xs:keyref name="stadion-meccs" refer="stadionKulcs">
+            <xs:selector xpath="meccsek/meccs/stadionID"/>
+            <xs:field xpath="."/>
+        </xs:keyref>
+
+        <xs:keyref name="csapat-jatekos" refer="csapatKulcs">
+            <xs:selector xpath="jatekosok/jatekos/csapatID"/>
+            <xs:field xpath="."/>
+        </xs:keyref>
+
+        <xs:keyref name="jatekos-statisztika" refer="jatekosKulcs">
+            <xs:selector xpath="statisztikak/statisztika/jatekosID"/>
+            <xs:field xpath="."/>
+        </xs:keyref>
+
+        <xs:keyref name="csapat-jatszik" refer="csapatKulcs">
+            <xs:selector xpath="tobbJatszik/jatszik/csapatID"/>
+            <xs:field xpath="."/>
+        </xs:keyref>
+
+        <xs:keyref name="meccs-jatszik" refer="meccsKulcs">
+            <xs:selector xpath="tobbJatszik/jatszik/meccsID"/>
+            <xs:field xpath="."/>
+        </xs:keyref>
+
     </xs:element>
 
     <xs:complexType name="stadionTipus">
