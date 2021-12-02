@@ -1,0 +1,42 @@
+<!DOCTYPE HTML><html>
+   <body>
+      <table border="1">
+         <thead bgcolor="#baba69">
+            <tr>
+               <th>ID</th>
+               <th>Vezetkénév</th>
+               <th>Keresztnév</th>
+               <th>Becenév</th>
+               <th>Fizetés</th>
+               <th>Fokozat</th>
+            </tr>
+         </thead>
+         <tbody>
+            <tr>
+               <td>01</td>
+               <td>Csiszár</td>
+               <td>Levente</td>
+               <td>Levi</td>
+               <td>490000</td>
+               <td>Magas</td>
+            </tr>
+            <tr>
+               <td>02</td>
+               <td>Kovács</td>
+               <td>Tamás</td>
+               <td>Tomi</td>
+               <td>373000</td>
+               <td>Közepes</td>
+            </tr>
+            <tr>
+               <td>03</td>
+               <td>Halmai</td>
+               <td>Enikő</td>
+               <td>Eni</td>
+               <td>320000</td>
+               <td>Közepes</td>
+            </tr>
+         </tbody>
+      </table>
+   </body>
+</html>

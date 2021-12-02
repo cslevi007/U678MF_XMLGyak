@@ -1,0 +1,140 @@
+{
+	"version": "2.0.0",
+	"tasks": [
+		{
+			"type": "xslt",
+			"label": "xslt: student",
+			"saxonJar": "${config:XSLT.tasks.saxonJar}",
+			"xsltFile": "${workspaceFolder}/studentU678MF_choose.xsl",
+			"xmlSource": "${workspaceFolder}/studentU678MF.xml",
+			"resultPath": "${workspaceFolder}/studentU678MF_choosey.out.xml",
+			"group": {
+				"kind": "build",
+				"isDefault": true
+			},
+			"problemMatcher": [
+				"$saxon-xslt"
+			]
+		},
+		{
+			"type": "xslt",
+			"label": "xslt: autok",
+			"saxonJar": "${config:XSLT.tasks.saxonJar}",
+			"xsltFile": "${workspaceFolder}/autokU678MF.xsl",
+			"xmlSource": "${workspaceFolder}/autokU678MF.xml",
+			"resultPath": "${workspaceFolder}/autokU678MF.out.xml",
+			"group": {
+				"kind": "build",
+				"isDefault": true
+			},
+			"problemMatcher": [
+				"$saxon-xslt"
+			]
+		},
+		{
+			"type": "xslt",
+			"label": "xslt: autok1",
+			"saxonJar": "${config:XSLT.tasks.saxonJar}",
+			"xsltFile": "${workspaceFolder}/autok1U678MF.xsl",
+			"xmlSource": "${workspaceFolder}/autokU678MF.xml",
+			"resultPath": "${workspaceFolder}/autok1U678MF.out.xml",
+			"group": {
+				"kind": "build",
+				"isDefault": true
+			},
+			"problemMatcher": [
+				"$saxon-xslt"
+			]
+		},
+		{
+			"type": "xslt",
+			"label": "xslt: autok2",
+			"saxonJar": "${config:XSLT.tasks.saxonJar}",
+			"xsltFile": "${workspaceFolder}/autok2U678MF.xsl",
+			"xmlSource": "${workspaceFolder}/autokU678MF.xml",
+			"resultPath": "${workspaceFolder}/autok2U678MF.out.xml",
+			"group": {
+				"kind": "build",
+				"isDefault": true
+			},
+			"problemMatcher": [
+				"$saxon-xslt"
+			]
+		},
+		{
+			"type": "xslt",
+			"label": "xslt: autok3",
+			"saxonJar": "${config:XSLT.tasks.saxonJar}",
+			"xsltFile": "${workspaceFolder}/autok3U678MF.xsl",
+			"xmlSource": "${workspaceFolder}/autokU678MF.xml",
+			"resultPath": "${workspaceFolder}/autok3U678MF.out.xml",
+			"group": {
+				"kind": "build",
+				"isDefault": true
+			},
+			"problemMatcher": [
+				"$saxon-xslt"
+			]
+		},
+		{
+			"type": "xslt",
+			"label": "xslt: autok4",
+			"saxonJar": "${config:XSLT.tasks.saxonJar}",
+			"xsltFile": "${workspaceFolder}/autok4U678MF.xsl",
+			"xmlSource": "${workspaceFolder}/autokU678MF.xml",
+			"resultPath": "${workspaceFolder}/autok4U678MF.out.xml",
+			"group": {
+				"kind": "build",
+				"isDefault": true
+			},
+			"problemMatcher": [
+				"$saxon-xslt"
+			]
+		},
+		{
+			"type": "xslt",
+			"label": "xslt: autok5",
+			"saxonJar": "${config:XSLT.tasks.saxonJar}",
+			"xsltFile": "${workspaceFolder}/autok5U678MF.xsl",
+			"xmlSource": "${workspaceFolder}/autokU678MF.xml",
+			"resultPath": "${workspaceFolder}/autok5U678MF.out.xml",
+			"group": {
+				"kind": "build",
+				"isDefault": true
+			},
+			"problemMatcher": [
+				"$saxon-xslt"
+			]
+		},
+		{
+			"type": "xslt",
+			"label": "xslt: autok6",
+			"saxonJar": "${config:XSLT.tasks.saxonJar}",
+			"xsltFile": "${workspaceFolder}/autok6U678MF.xsl",
+			"xmlSource": "${workspaceFolder}/autokU678MF.xml",
+			"resultPath": "${workspaceFolder}/autok6U678MF.out.xml",
+			"group": {
+				"kind": "build",
+				"isDefault": true
+			},
+			"problemMatcher": [
+				"$saxon-xslt"
+			]
+		},
+		{
+			"type": "xslt",
+			"label": "xslt: autok7",
+			"saxonJar": "${config:XSLT.tasks.saxonJar}",
+			"xsltFile": "${workspaceFolder}/autok7U678MF.xsl",
+			"xmlSource": "${workspaceFolder}/autokU678MF.xml",
+			"resultPath": "${workspaceFolder}/autok7U678MF.out.xml",
+			"group": {
+				"kind": "build",
+				"isDefault": true
+			},
+			"problemMatcher": [
+				"$saxon-xslt"
+			]
+		},
+	]
+}
